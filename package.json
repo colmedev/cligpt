@@ -9,8 +9,16 @@
   "scripts": {
     "dev": "node index.mjs"
   },
-  "keywords": ["gpt", "cli", "command-line", "linux"],
+  "keywords": [
+    "gpt",
+    "cli",
+    "command-line",
+    "linux"
+  ],
   "homepage": "https://manz.dev/",
   "author": "ManzDev",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ollama": "^0.5.6"
+  }
 }
